@@ -1,0 +1,47 @@
+
+/*
+This will be the the header's and all its content style 
+*/
+header{
+    display: div;    
+    color:#F9FAF8;
+    flex-direction: column;
+}
+
+header ul{
+    display: flex;
+    color:#F9FAF8;
+    text-decoration: none;
+    gap: 1em;
+}
+
+header ul a{
+    color:#F9FAF8;
+    text-decoration: none;
+}
+
+.head_of_head{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.i_need_a_hero{
+    display: flex;
+    padding: 1em;
+}
+
+.i_need_a_hero img{
+    max-width: 480px;
+    padding: 1em;
+}
+
+.head_of_head img {
+    width: 150px;
+    height: 80px;
+    border-radius: 25%;
+}
+
+header, footer{
+    background-color: #1F2937;
+}
