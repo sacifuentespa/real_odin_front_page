@@ -45,3 +45,9 @@ header ul a{
 header, footer{
     background-color: #1F2937;
 }
+
+
+footer{
+    flex:1;
+    margin: 0;
+}
