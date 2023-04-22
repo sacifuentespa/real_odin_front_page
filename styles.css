@@ -1,4 +1,12 @@
 
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    width: 100vw;
+    max-width: 100%;
+    
+}
 /*
 This will be the the header's and all its content style 
 */
@@ -6,6 +14,7 @@ header{
     display: div;    
     color:#F9FAF8;
     flex-direction: column;
+    max-width: 100%;
 }
 
 header ul{
@@ -24,27 +33,95 @@ header ul a{
     display: flex;
     justify-content: space-around;
     padding: 1em;
+    flex:1;
 }
 
+/*This will contain hero-related styles*/
 .i_need_a_hero{
+    box-sizing: border-box;
     display: flex;
     padding: 1em;
+    width: 100%;
+    justify-content: space-around;
+}
+h1 {
+    font-size: 48px;
+    
 }
 
-.i_need_a_hero img{
-    max-width: 480px;
-    padding: 1em;
+.i_need_a_hero p{
+    font-size:18px;
 }
+
+.i_need_a_hero div{
+    box-sizing: border-box;
+    padding: 1em;
+    max-width: 50%;
+
+}
+
+.i_need_a_hero .space_for_hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+.i_need_a_hero .space_for_hero img{
+    box-sizing: border-box;
+    max-width: 75%;
+    max-height: 60vh;
+}
+
 
 .head_of_head img {
     width: 150px;
     height: 80px;
-    border-radius: 25%;
+    border-radius: 50%;
 }
 
-header, footer{
+header, footer, .i_need_a_hero{
     background-color: #1F2937;
+    color: #F9FAF8;;
 }
+
+/*This will contain the part of the cool pics*/
+.pics {
+    display: flex;
+    flex-direction: column;  
+    padding: 1em;
+    align-items: center;
+    margin: 0 15% 0 15%;
+}
+
+.pic_cards{
+    display:flex;
+    gap: 1em;
+}
+
+.cool_pics{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cool_pics img{
+    max-width: 85%;
+    border: 2px solid #3882F6;
+    border-radius: 10%;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+h3{
+    font-size: 36px;
+}
+
 
 
 footer{
