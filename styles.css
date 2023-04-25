@@ -1,4 +1,3 @@
-#change
 body{
     display: flex;
     flex-direction: column;
@@ -83,7 +82,7 @@ h1 {
 
 header, footer, .i_need_a_hero{
     background-color: #1F2937;
-    color: #F9FAF8;;
+    color: #F9FAF8;
 }
 
 /*This will contain the part of the cool pics*/
@@ -115,12 +114,69 @@ header, footer, .i_need_a_hero{
 }
 
 .quote{
+    display: flex;
     background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-h3{
+.quote .h3like{
     font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 60%;
 }
+
+#credits {
+    font-size: 16px;
+    font-style: italic;
+    color: #1F2937;
+    align-self: flex-end;
+    margin-right: 3em
+}
+
+.quote p{
+    margin: .5em;
+}
+
+/*last part of call to action*/
+.check_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.check_action .action_button{
+    display: flex;
+    background-color: #6199f3;
+    padding: 1em;
+    margin:2em;
+    color: #F9FAF8;
+    gap: 2em;
+    border-radius: 15px;
+}
+
+#title_action{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#paragraph_action{
+    font-size: 0.7em;
+}
+
+.action_button{
+    display: flex;
+    align-items: center;
+}
+
+.check_action button{
+    max-height: 1.5em;
+}
+
 
 
 
